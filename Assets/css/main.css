@@ -1,0 +1,33 @@
+.mr-3{
+	display:block;
+	width: 100%;
+	height: auto;
+}
+
+.jumbotron{
+	background-color: lavender;
+}
+
+.portfolio_pic{
+	display: inline-block;
+	width:18.75em;
+	height:20em;
+}
+
+.mt-0{
+	width:100%;
+	text-align:center;
+}
+
+#icon_des{
+	text-align:center;
+	width:100%;
+	height:auto;
+	margin-bottom: 10px;
+}
+
+.btn{
+	display: block;
+	width:100%;
+
+}
