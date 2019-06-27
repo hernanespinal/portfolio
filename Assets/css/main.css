@@ -1,3 +1,6 @@
+body{
+	background-color:#F4F4F4;
+}
 .mr-3{
 	display:block;
 	width: 100%;
@@ -5,7 +8,11 @@
 }
 
 .jumbotron{
-	background-color: lavender;
+	background-color: #373737;
+	/*background-image: url(../img/wave.jpg);*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	color:#C0B283;
 }
 
 .portfolio_pic{
@@ -14,6 +21,9 @@
 	height:20em;
 }
 
+#profile_pic{
+	border-radius: 50%;
+}
 .mt-0{
 	width:100%;
 	text-align:center;
@@ -26,8 +36,61 @@
 	margin-bottom: 10px;
 }
 
-.btn{
+.btn.btn-primary{
 	display: block;
 	width:100%;
+	background-color: #DCD0C0;
+	color:#373737;
+	border-color: #C0B283
 
+}
+
+#bio_btn{
+width:80% !important;
+margin: 0 auto;
+}
+
+.container{
+	background-color: #F4F4F4;
+}
+
+.projects{
+	background-color:#373737;
+	color: #DCD0C0;
+}
+
+h1{
+	padding-top:10px;
+}
+
+hr{
+	color:#C0B283;
+}
+
+nav{
+	background-color: #C0B283;
+}
+
+footer{
+	background-color:#C0B283;
+	position:absolute;
+	width:100%;
+	height:auto;
+}
+
+footer ul li{
+	display:inline-block;
+	list-style:none;
+	padding:2%;
+	float:right;
+}
+
+footer p{
+	float:left;
+	padding:2%;
+}
+
+footer a, footer p{
+	color:#fff;
+	vertical-align:middle;
 }
