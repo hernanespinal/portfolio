@@ -5,11 +5,15 @@ body{
 	display:block;
 	width: 100%;
 	height: auto;
+	border-radius: 50%
+}
+
+hr{
+	background-color: #C0B283;
 }
 
 .jumbotron{
 	background-color: #373737;
-	/*background-image: url(../img/wave.jpg);*/
 	background-repeat: no-repeat;
 	background-size: cover;
 	color:#C0B283;
@@ -50,6 +54,18 @@ width:80% !important;
 margin: 0 auto;
 }
 
+.btn.btn-primary:hover{
+	background-color: #C0B283;
+	color:#F4F4F4;
+	border-color:#373737;
+}
+
+#bio_btn:hover{
+	background-color: #F4F4F4;
+	color:#373737;
+	border-color:#C0B283;
+}
+
 .container{
 	background-color: #F4F4F4;
 }
@@ -67,8 +83,8 @@ hr{
 	color:#C0B283;
 }
 
-nav{
-	background-color: #C0B283;
+nav.navbar{
+	background-color: #C0B283 !important;
 }
 
 footer{

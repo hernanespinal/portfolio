@@ -1,10 +1,32 @@
-#year{
+body{
+	background-color: #F4F4F4;
+}
+
+.card{
+	background-color: #373737;
+	color:#DCD0C0;
+}
+
+hr{
+	background-color:#C0B283;
+}
+
+#award_content .btn{
 	font-size: 20px;
 	width: 100%;
 	height:auto;
 	padding: 50px;
-	background-color:purple;
+	background-color:#DCD0C0;
+	color:#373737;
 	border-collapse: bottom;
+	border-radius: 50%;
+	border-color: #C0B283
+}
+
+#award_content .btn:hover{
+	background-color: #C0B283;
+	color:#F4F4F4;
+	border-color:#373737;
 }
 
 .award_group{
@@ -18,3 +40,4 @@
 .container{
 	max-width: 100% !important;
 }
+
