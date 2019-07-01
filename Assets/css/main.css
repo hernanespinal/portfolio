@@ -1,6 +1,7 @@
 body{
 	background-color:#F4F4F4;
 }
+
 .mr-3{
 	display:block;
 	width: 100%;
@@ -12,11 +13,22 @@ hr{
 	background-color: #C0B283;
 }
 
+.mylogo{
+	width: auto;
+	vertical-align: middle;
+	height:auto;
+}
+
 .jumbotron{
-	background-color: #373737;
+	background-color: #F4F4F4;
 	background-repeat: no-repeat;
 	background-size: cover;
-	color:#C0B283;
+	color:#373737;
+}
+
+.between{
+	background-color: #373737;
+
 }
 
 .portfolio_pic{
@@ -28,6 +40,7 @@ hr{
 #profile_pic{
 	border-radius: 50%;
 }
+
 .mt-0{
 	width:100%;
 	text-align:center;
@@ -61,7 +74,7 @@ margin: 0 auto;
 }
 
 #bio_btn:hover{
-	background-color: #F4F4F4;
+	background-color: #C0B283;
 	color:#373737;
 	border-color:#C0B283;
 }
@@ -84,7 +97,48 @@ hr{
 }
 
 nav.navbar{
-	background-color: #C0B283 !important;
+	background-color: #DCD0C0 !important;
+}
+
+nav ul{
+	position: absolute !important;
+	right:10px !important;
+}
+
+.nav-link{
+	color:#373737 !important;
+}
+
+.dropdown-menu{
+	background-color: #C0B283;
+	color: #F4F4F4;
+	border-color: #373737 ;
+	left:-80px;
+}
+
+.dropdown-item{
+	color:#373737;
+}
+
+#projects_head{
+	color:#373737 !important;
+}
+
+.card{
+	background-color: #373737;
+	color:#DCD0C0;
+	border-color: #C0B283;
+}
+
+.card:hover{
+	background-color: #C0B283 ;
+	color:#373737;
+	border-color:#DCD0C0 ;
+}
+
+.footer_div{
+	display: block;
+	float: left;
 }
 
 footer{
@@ -104,9 +158,21 @@ footer ul li{
 footer p{
 	float:left;
 	padding:2%;
+	display: inline-block;
+}
+
+footer img{
+	margin-top: 20px;
+	float:left;
+	display:inline-block;
+	height: 60px;
 }
 
 footer a, footer p{
 	color:#fff;
 	vertical-align:middle;
+}
+
+footer a:hover{
+	color: #373737;
 }
